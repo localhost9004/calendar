@@ -2,18 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "next.config.ts",
       "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
     }
   ]
 }
